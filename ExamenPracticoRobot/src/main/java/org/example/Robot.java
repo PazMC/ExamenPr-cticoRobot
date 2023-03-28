@@ -1,6 +1,6 @@
 package org.example;
 
-public abstract class Robot {
+public class Robot {
 
     String head;
     String laser;
@@ -19,11 +19,20 @@ public abstract class Robot {
         return move;
     }
 
-    
 
+    public String getHead() {
+        return head;
+    }
 
+    public void setHead(String head) {
+        this.head = head;
+    }
 
+    public String getLaser() {
+        return laser;
+    }
 
-
-
+    public void setLaser(String laser) {
+        this.laser = laser;
+    }
 }
