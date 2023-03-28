@@ -1,38 +1,40 @@
 package org.example;
 
 public class Robot {
+    public Robot() {}
 
-    String head;
-    String laser;
+        String head;
+        String laser;
 
-    public void changeBody() {
+        public void changeBody () {
 
-    }
+        }
 
-    public String moveFast(){
-        int distance=2;
-        String move;
-        if(distance!=0){
-            move="yes";
-        }else move="not moving";
+        public String moveFast () {
+            int distance = 2;
+            String move;
+            if (distance != 0) {
+                move = "yes";
+            } else move = "not moving";
 
-        return move;
-    }
+            return move;
+        }
 
 
-    public String getHead() {
-        return head;
-    }
+        public String getHead () {
+            return head;
+        }
 
-    public void setHead(String head) {
-        this.head = head;
-    }
+        public void setHead (String head){
+            this.head = head;
+        }
 
-    public String getLaser() {
-        return laser;
-    }
+        public String getLaser () {
+            return laser;
+        }
 
-    public void setLaser(String laser) {
-        this.laser = laser;
-    }
+        public void setLaser (String laser){
+            this.laser = laser;
+        }
+
 }

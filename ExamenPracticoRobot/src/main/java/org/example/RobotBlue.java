@@ -1,7 +1,10 @@
 package org.example;
 
 public class RobotBlue extends Robot{
-    Robot robotBlue= new Robot();
+    public RobotBlue() {
+        super();
+    }
+
         @Override
         public void changeBody() {
             super.changeBody();
@@ -22,4 +25,15 @@ public class RobotBlue extends Robot{
             super.setLaser(laser);
         }
 
+
+
+    @Override
+    public String getHead() {
+        return super.getHead();
+    }
+
+    @Override
+    public String getLaser() {
+        return super.getLaser();
+    }
 }
