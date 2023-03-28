@@ -1,6 +1,8 @@
 package org.example.body;
 
-public class AquaticCombatBody implements ICombatBody{
+public class AquaticCombatBody extends Body implements ICombatBody{
+
+    private String bodyType = "aquatic";
     @Override
     public void combat() {
 

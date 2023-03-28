@@ -6,8 +6,9 @@ public class Robot {
         String head;
         String laser;
 
-        public void changeBody () {
-
+        public String changeBody () {
+        String typeBody="n";
+        return typeBody;
         }
 
         public String moveFast () {

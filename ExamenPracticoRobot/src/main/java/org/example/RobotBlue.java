@@ -6,8 +6,9 @@ public class RobotBlue extends Robot{
     }
 
         @Override
-        public void changeBody() {
+        public String changeBody() {
             super.changeBody();
+            return null;
         }
 
         @Override

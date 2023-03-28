@@ -1,6 +1,9 @@
 package org.example.body;
 
-public class SkyCombatBody implements ICombatBody{
+public class SkyCombatBody extends Body implements ICombatBody{
+
+    private String bodyType = "sky";
+
     @Override
     public void combat() {
 
